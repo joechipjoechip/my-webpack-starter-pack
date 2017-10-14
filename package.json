@@ -1,0 +1,44 @@
+{
+  "name": "exercice-integration-sw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev webpack",
+    "prod": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joechipjoechip/exercice-integration-sw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joechipjoechip/exercice-integration-sw/issues"
+  },
+  "homepage": "https://github.com/joechipjoechip/exercice-integration-sw#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.5",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "^1.1.5",
+    "img-loader": "^2.0.0",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.7",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.7.1",
+    "webpack-manifest-plugin": "^1.3.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
