@@ -1,6 +1,9 @@
-$background: #DDD;
-
 body {
-  background: url(./../img/test.png);
-  transform: translateX(120px);
+  // here some bases
 }
+
+// here imports
+
+// @import 'vars';
+// @import 'mixins/bg2x';
+@import 'layout';
